@@ -27,6 +27,16 @@
     <style> h2 { font-size: 21.5px; } </style>
     <style> h3 { font-size: 16.5px; } </style>
     <style> p { padding-left: 20px; } </style>
+
+    <style>
+		.dot {
+		  height: 25px;
+		  width: 25px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		}
+		</style>
 </head>
 
 <body>
@@ -35,15 +45,41 @@
   </body>
   <font color="white">
 
+
+<!-- Random link -->
+<div class="github-ribbon" style="position: absolute; left: 0px; top: 0px; width: 70px; height: 70px; overflow: hidden; z-index: 99999;"><a target="_blank" style="display: inline-block; width: 100px; overflow: hidden; padding: 6px 0px; text-align: center; transform: rotate(-45deg); text-decoration: none; color: rgb(255, 255, 255); position: inherit; top: 10px; left: -25px; border-width: 1px 0px; border-style: none; border-color: rgba(255, 255, 255, 0.7); font: 700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px; background-color: rgb(200, 200, 200); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));" onclick="randomlink()">Random</a></div>
+
+<script type="text/javascript">
+var randomlinks = [];
+randomlinks[0] = "https://github.com/RePlasma/RevModPhys.38.626/blob/main/RevModPhys.38.626_Erber66RevModPhys_github.pdf"
+randomlinks[1] = "https://github.com/RePlasma/PhysRev.155.1404/blob/main/PhysRev.155.1404.pdf"
+randomlinks[2] = "https://github.com/RePlasma/PhysRevLett.28.455/blob/main/PhysRevLett.28.455.ipynb"
+randomlinks[3] = "https://github.com/RePlasma/1.861780/blob/main/1.861780_github.pdf"
+randomlinks[4] = "https://github.com/RePlasma/JPSJ.52.2654/blob/main/JPSJ.52.2654_github.pdf"
+randomlinks[5] = "https://github.com/RePlasma/Englefield1988_Article_ExactSolutionsOfAFokker-Planck/blob/main/Englefield1988_Article_ExactSolutionsOfAFokker-Planck_github.pdf"
+randomlinks[6] = "https://github.com/RePlasma/0003056/blob/main/0003056_github.pdf"
+randomlinks[7] = "https://github.com/RePlasma/Salamin2007/blob/main/Salamin2007.ipynb"
+randomlinks[8] = "https://github.com/RePlasma/PhysRevLett.101.200403/blob/main/PhysRevLett.101.200403_github.pdf"
+randomlinks[9] = "https://github.com/RePlasma/PhysRevSTAB.14.054401/blob/main/PhysRevSTAB.14.054401_github.pdf"
+function randomlink(){
+  window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)]);
+}
+</script>
+
+
 <!-- Fork me button -->
-<div class="github-ribbon" style="position: absolute; right: 0px; top: 0px; width: 150px; height: 150px; overflow: hidden; z-index: 99999;"><a target="_blank" style="display: inline-block; width: 200px; overflow: hidden; padding: 6px 0px; text-align: center; transform: rotate(45deg); text-decoration: none; color: rgb(255, 255, 255); position: inherit; top: 45px; right: -40px; border-width: 1px 0px; border-style: dotted; border-color: rgba(255, 255, 255, 0.7); font: 700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px; background-color: rgb(220, 220, 220); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));" href="https://github.com/RePlasma/RePlasma.github.io">Fork project on Github</a></div>
+<div class="github-ribbon" style="position: absolute; right: 0px; top: 0px; width: 150px; height: 150px; overflow: hidden; z-index: 99998;"><a target="_blank" style="display: inline-block; width: 200px; overflow: hidden; padding: 6px 0px; text-align: center; transform: rotate(45deg); text-decoration: none; color: rgb(255, 255, 255); position: inherit; top: 45px; right: -40px; border-width: 1px 0px; border-style: none; border-color: rgba(255, 255, 255, 0.7); font: 700 13px &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 3px 0px; background-color: rgb(220, 220, 220); background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));" href="https://github.com/RePlasma/RePlasma.github.io">Fork project on Github</a></div>
+
+
 
 
 <div class="container">
 
 <div class="row-fluid">
 <div class="col-xs-12 col-sm-12 col-md-12">
-<center><h1>RePlasma</h1></center>
+
+
+<center><h1>Re Plasma</h1></center> <!-- <span class="dot"></span> -->
 <center><h2>Reproduced papers in Plasma Physics and beyond</h2></center>
 </div>
 
